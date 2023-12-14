@@ -1,0 +1,56 @@
+Documentação do Projeto - Supermercado em Java
+
+O projeto consiste em um sistema de gerenciamento de supermercado desenvolvido em Java, ele inclui 
+funcionalidades como cadastro de clientes, controle de estoque e controle de vendas. 
+
+OBJETVOS: O nosso maior objetivo desse projeto é criar um sistema eficiente para facilitar o gerenciamento
+dos clientes, as vendas e o estoque em um ambiente de supermercado. Isso proporcionará maior eficiência 
+operacional, minimizando erros e melhorando a experiência do usuário.
+
+
+    Cadastro de Clientes:
+    - O sistema permite o registro de novos clientes, incluindo informações como camada cpf, nome, telefone, etc.
+    - Validações adequadas serão implementadas para garantir dados consistentes.
+
+    Cadastro de Produtos no Estoque:
+    - A aplicação permite o cadastro de produtos no estoque, incluindo detalhes como nome, preço, quantidade em estoque, etc.
+    
+    Cadastro de Produtos no Vendas:
+    - permite o cadastro de vendas, qual cliente comprou, escolher o produto que está no estoque para comprar, a quantidade que irá comprar, 
+    finalizar a compra, comprar e editar.
+     
+
+Tecnologias Utilizadas:
+*Java (versão X.X)
+*JavaFX (para a interface gráfica)
+*Banco de dados (PostgreSQL)
+
+
+
+MODEL:
+* O Model representa a camada de dados e a lógica de negócios da aplicação.
+* Ele é responsável por gerenciar os dados, regras de negócios, lógica de acesso ao banco de dados e qualquer outra
+lógica relacionada à manipulação de dados.
+* Muitas vezes, o Model notifica as Views (por meio de observadores/observáveis ou outros mecanismos) quando os 
+dados são alterados.
+
+
+VIEW:
+* A View é responsável pela apresentação da interface do usuário e exibição dos dados.
+* Ela exibe as informações do Model e encaminha as ações do usuário para o Controller.
+* A View não contém lógica de negócios significativa; ela simplesmente mostra os dados fornecidos pelo Model e 
+encaminha as interações do usuário para o Controller.
+
+
+
+CONTROLLER:
+* O Controller atua como intermediário entre o Model e a View.
+* Ele recebe as entradas do usuário da View, processa essas entradas (por exemplo, executa a lógica de negócios) e 
+atualiza o Model e a View conforme necessário.
+* O Controller é responsável por lidar com a lógica de fluxo de controle e decisões do aplicativo.
+
+
+
+
+
+
